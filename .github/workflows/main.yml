@@ -28,4 +28,4 @@ jobs:
           destination_repo: wardsimon/fictional-memory
           access_token: ${{ secrets.GH_TOKEN_BOT }}
           ssh_key: ${{ secrets.GH_SSH_BOT }}
-          copybara_options: --force --init-history
+          copybara_options: --force
